@@ -1,0 +1,24 @@
+{
+    "0":
+        {
+            "name":"Terminal Rodoviário De Muzambinho",
+            "address":"Avenida Frei Florentino, 190",
+            "city":"Muzamabinho",
+            "state":"MG",
+            "address2":"Centro",
+            "postalcode":"37890-000",
+            "lat":"-21.3775429",
+            "lng":"-46.5263974"
+        },
+    "1":
+        {
+            "name":"Terminal Rodoviário De Guaranésia",
+            "address":"Rua Major Urias, 950",
+            "city":"Guaranésia",
+            "address2":"Centro",
+            "state":"MG",
+            "postalcode":"37810-000",
+            "lat":"-21.3035343",
+            "lng":"-46.7933823"
+        }
+}

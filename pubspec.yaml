@@ -1,0 +1,76 @@
+name: routesapp
+description: Route Viewer using Google Maps and existing coordinates
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_maps: ^6.3.0
+  google_maps_flutter: ^2.5.0
+  google_maps_flutter_android: ^2.5.1
+  flutter_polyline_points: ^2.0.0
+  google_maps_flutter_platform_interface: ^2.4.1
+  geolocator: ^10.0.0
+  http: ^1.1.0
+  path_provider: ^2.1.1
+  url_launcher: ^6.1.14
+  #searchable_paginated_dropdown: ^1.2.0
+  searchable_paginated_dropdown:
+    git:
+      url: https://github.com/wendellavila/searchable_dropdown/
+      ref: development # branch name
+  flutter_polyline_no_xmlhttperror:
+    git:
+        url: https://github.com/wendellavila/flutter_polyline_no_xmlhttperror
+        ref: main
+  flutter_launcher_icons: ^0.13.1
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/
+    - assets/json/
+    
+  fonts:
+    - family: Lato
+      fonts:
+        # - asset: fonts/Lato-Thin.ttf
+        #   weight: 100
+        # - asset: fonts/Lato-ThinItalic.ttf
+        #   weight: 100
+        #   style: italic
+        # - asset: fonts/Lato-Light.ttf
+        #   weight: 300
+        # - asset: fonts/Lato-LightItalic.ttf
+        #   weight: 300
+        #   style: italic
+        - asset: fonts/Lato-Regular.ttf
+          weight: 400
+        # - asset: fonts/Lato-Italic.ttf
+        #   weight: 400
+          style: italic
+        - asset: fonts/Lato-Bold.ttf
+          weight: 700
+        # - asset: fonts/Lato-BoldItalic.ttf
+        #   weight: 700
+        #   style: italic
+        # - asset: fonts/Lato-Black.ttf
+        #   weight: 900
+        # - asset: fonts/Lato-BlackItalic.ttf
+        #   style: italic
+        #   weight: 900
