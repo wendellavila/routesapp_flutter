@@ -26,11 +26,11 @@ dependencies:
   searchable_paginated_dropdown:
     git:
       url: https://github.com/wendellavila/searchable_dropdown/
-      ref: development # branch name
+      ref: feature/dialog-show-dismiss-callbacks # branch name
   flutter_polyline_no_xmlhttperror:
     git:
-        url: https://github.com/wendellavila/flutter_polyline_no_xmlhttperror
-        ref: main
+      url: https://github.com/wendellavila/flutter_polyline_no_xmlhttperror
+      ref: main
   flutter_launcher_icons: ^0.13.1
   intl: ^0.18.1
 
@@ -49,28 +49,28 @@ flutter:
   fonts:
     - family: Lato
       fonts:
-        # - asset: fonts/Lato-Thin.ttf
+        # - asset: assets/fonts/Lato-Thin.ttf
         #   weight: 100
-        # - asset: fonts/Lato-ThinItalic.ttf
+        # - asset: assets/fonts/Lato-ThinItalic.ttf
         #   weight: 100
         #   style: italic
-        # - asset: fonts/Lato-Light.ttf
+        # - asset: assets/fonts/Lato-Light.ttf
         #   weight: 300
-        # - asset: fonts/Lato-LightItalic.ttf
+        # - asset: assets/fonts/Lato-LightItalic.ttf
         #   weight: 300
         #   style: italic
-        - asset: fonts/Lato-Regular.ttf
+        - asset: assets/fonts/Lato-Regular.ttf
           weight: 400
-        # - asset: fonts/Lato-Italic.ttf
+        # - asset: assets/fonts/Lato-Italic.ttf
         #   weight: 400
           style: italic
-        - asset: fonts/Lato-Bold.ttf
+        - asset: assets/fonts/Lato-Bold.ttf
           weight: 700
-        # - asset: fonts/Lato-BoldItalic.ttf
+        # - asset: assets/fonts/Lato-BoldItalic.ttf
         #   weight: 700
         #   style: italic
-        # - asset: fonts/Lato-Black.ttf
+        # - asset: assets/fonts/Lato-Black.ttf
         #   weight: 900
-        # - asset: fonts/Lato-BlackItalic.ttf
+        # - asset: assets/fonts/Lato-BlackItalic.ttf
         #   style: italic
         #   weight: 900
