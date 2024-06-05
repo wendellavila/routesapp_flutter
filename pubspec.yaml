@@ -13,12 +13,12 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
-  google_maps: ^6.3.0
+  google_maps: ^7.1.0
   google_maps_flutter: ^2.5.0
   google_maps_flutter_android: ^2.5.1
   flutter_polyline_points: ^2.0.0
   google_maps_flutter_platform_interface: ^2.4.1
-  geolocator: ^10.0.0
+  geolocator: ^12.0.0
   http: ^1.1.0
   path_provider: ^2.1.1
   url_launcher: ^6.1.14
@@ -32,12 +32,12 @@ dependencies:
       url: https://github.com/wendellavila/flutter_polyline_no_xmlhttperror
       ref: main
   flutter_launcher_icons: ^0.13.1
-  intl: ^0.18.1
+  intl: ^0.19.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
@@ -45,7 +45,7 @@ flutter:
   assets:
     - assets/img/
     - assets/json/
-    
+
   fonts:
     - family: Lato
       fonts:
@@ -61,8 +61,8 @@ flutter:
         #   style: italic
         - asset: assets/fonts/Lato-Regular.ttf
           weight: 400
-        # - asset: assets/fonts/Lato-Italic.ttf
-        #   weight: 400
+          # - asset: assets/fonts/Lato-Italic.ttf
+          #   weight: 400
           style: italic
         - asset: assets/fonts/Lato-Bold.ttf
           weight: 700
